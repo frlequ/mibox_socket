@@ -13,7 +13,7 @@ Before using the Mibox Socket HA integration, ensure that your RPI is not alread
 
 ## Home Assistant Setup
 1. Copy the content to the `custom_components` directory.
-2. In the `configuration.yaml` file, enter:
+2. In the `configuration.yaml` file add:
 
     ```yaml
     switch:

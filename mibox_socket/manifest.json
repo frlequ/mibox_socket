@@ -1,14 +1,14 @@
 {
   "domain": "mibox_socket",
   "name": "Mibox Socket",
-  "documentation": "https://yourdocumentationlink.com",
+  "documentation": "https://",
   "dependencies": [],
   "codeowners": [],
   "requirements": [],
   "version": "1.0",
   "issues": {
     "name": "Issues",
-    "url": "https://github.com/yourgithub/bluetooth_socket/issues",
+    "url": "https://github.com/frlequ/mibox_socket/issues",
     "tracker": "github",
     "description": "Please file all issues on GitHub."
   },

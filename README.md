@@ -11,6 +11,9 @@ While turning the Mibox off can be done easily with an ADB command, turning it O
 ## How
 Before using the Mibox Socket HA integration, ensure that your RPI is not already paired with the Mibox. If it is, unpair it on the Mibox device itself. `Bluetoothctl` is used because it needs to scan for devices first. Once the device is found, the `pair` process can be called. The `Pexpect` module is used to ensure the sequence is followed in order. It takes about 15 secons to complete the sequence and to wake up Mibox.
 
+## Note
+Don't use switch while Mibox is ON, or you'll get an paring message on screen. If you do, just cancel the paring.
+
 ## Home Assistant Setup
 1. Copy the content to the `custom_components` directory.
 2. In the `configuration.yaml` file add:
